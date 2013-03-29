@@ -23,7 +23,7 @@
 	=========================================================
  */
 #pragma once
-#include "../juce/extras/example projects/JuceLibraryCode/JuceHeader.h"
+#include "./JuceLibraryCode/JuceHeader.h"
 
 class GreenLookAndFeel : public LookAndFeel
 {
@@ -69,10 +69,11 @@ public:
 			int imageHeight; 
 			int imageWidth;
 	        
-			if (slider.getTextBoxPosition() == Slider::TextBoxBelow)
+			if (0)//(slider.getTextBoxPosition() == Slider::TextBoxBelow)
 			{
-				imageWidth = width - slider.getTextBoxHeight();
+				//imageWidth = width - slider.getTextBoxHeight();
 				imageHeight = height - slider.getTextBoxHeight();
+				imageWidth = imageHeight; //keep square proportions
 			}
 			else
 			{

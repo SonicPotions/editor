@@ -929,12 +929,12 @@ void VoiceBasedHatComponent::paint (Graphics& g)
 
 void VoiceBasedHatComponent::resized()
 {
-    tune1->setBounds (24, 64, 64, 72);
-    veloA1->setBounds (24, 216, 64, 72);
-    veloD1->setBounds (96, 216, 64, 72);
-    drive1->setBounds (768, 64, 64, 72);
-    vol1->setBounds (552, 64, 64, 72);
-    pan1->setBounds (624, 64, 64, 72);
+    tune1->setBounds (24, 64, 48, 68);
+    veloA1->setBounds (24, 216, 48, 68);
+    veloD1->setBounds (96, 216, 48, 68);
+    drive1->setBounds (768, 64, 48, 68);
+    vol1->setBounds (552, 64, 48, 68);
+    pan1->setBounds (624, 64, 48, 68);
     label->setBounds (32, 192, 56, 24);
     label2->setBounds (104, 192, 54, 24);
     label3->setBounds (32, 40, 54, 24);
@@ -945,58 +945,58 @@ void VoiceBasedHatComponent::resized()
     label13->setBounds (776, 40, 54, 24);
     label14->setBounds (560, 40, 54, 24);
     label15->setBounds (640, 40, 54, 24);
-    sampleRate->setBounds (696, 64, 64, 72);
+    sampleRate->setBounds (696, 64, 48, 68);
     label16->setBounds (696, 40, 88, 24);
     label5->setBounds (280, 320, 160, 24);
     comboBox->setBounds (288, 368, 88, 24);
     label17->setBounds (280, 344, 112, 24);
-    modAmount2->setBounds (440, 368, 64, 72);
+    modAmount2->setBounds (440, 368, 48, 68);
     amountLabel2->setBounds (448, 344, 72, 24);
     velocityModulationOnOff->setBounds (288, 408, 144, 24);
     label18->setBounds (560, 344, 112, 24);
     outputSelectCombo->setBounds (624, 344, 136, 24);
     freqLabel4->setBounds (168, 40, 72, 24);
-    tune2->setBounds (96, 64, 64, 72);
+    tune2->setBounds (96, 64, 48, 68);
     label19->setBounds (112, 40, 54, 24);
     label20->setBounds (16, 320, 160, 24);
     freqLabel5->setBounds (184, 344, 72, 24);
     comboBox2->setBounds (184, 392, 72, 24);
-    transVol->setBounds (24, 368, 64, 72);
+    transVol->setBounds (24, 368, 48, 68);
     label21->setBounds (24, 344, 54, 24);
-    transFreq->setBounds (96, 368, 64, 72);
+    transFreq->setBounds (96, 368, 48, 68);
     freqLabel6->setBounds (112, 344, 72, 24);
     label22->setBounds (544, 168, 160, 24);
-    filterFreq->setBounds (552, 216, 64, 72);
+    filterFreq->setBounds (552, 216, 48, 68);
     freqLabel7->setBounds (565, 192, 72, 24);
-    filterRes->setBounds (624, 216, 64, 72);
+    filterRes->setBounds (624, 216, 48, 68);
     freqLabel8->setBounds (640, 192, 72, 24);
     freqLabel9->setBounds (776, 192, 72, 24);
     comboBox3->setBounds (768, 232, 64, 24);
-    filterDrive->setBounds (696, 216, 64, 72);
+    filterDrive->setBounds (696, 216, 48, 68);
     label23->setBounds (704, 192, 54, 24);
     label24->setBounds (16, 16, 160, 24);
     comboBox4->setBounds (168, 80, 81, 24);
     label25->setBounds (552, 320, 160, 24);
     repeat->setBounds (168, 256, 88, 32);
     label11->setBounds (160, 232, 96, 24);
-    tune3->setBounds (288, 64, 64, 72);
-    tune4->setBounds (288, 208, 64, 72);
+    tune3->setBounds (288, 64, 48, 68);
+    tune4->setBounds (288, 208, 48, 68);
     label4->setBounds (296, 40, 54, 24);
     label7->setBounds (288, 176, 54, 24);
-    tune5->setBounds (360, 64, 64, 72);
+    tune5->setBounds (360, 64, 48, 68);
     label8->setBounds (368, 40, 54, 24);
     label10->setBounds (368, 176, 54, 24);
-    tune6->setBounds (360, 208, 64, 72);
+    tune6->setBounds (360, 208, 48, 68);
     freqLabel2->setBounds (438, 45, 72, 24);
     comboBox5->setBounds (438, 85, 81, 24);
     freqLabel3->setBounds (440, 181, 72, 24);
     comboBox6->setBounds (440, 221, 81, 24);
     label26->setBounds (280, 16, 160, 24);
-    transVol2->setBounds (26, 504, 64, 72);
+    transVol2->setBounds (26, 504, 48, 68);
     label27->setBounds (18, 472, 160, 24);
     freqLabel10->setBounds (41, 484, 72, 24);
-    transVol4->setBounds (98, 504, 64, 72);
-    transVol7->setBounds (170, 504, 64, 72);
+    transVol4->setBounds (98, 504, 48, 68);
+    transVol7->setBounds (170, 504, 48, 68);
     freqLabel11->setBounds (434, 480, 48, 24);
     freqLabel12->setBounds (106, 480, 64, 24);
     freqLabel13->setBounds (242, 480, 64, 24);
@@ -1536,27 +1536,27 @@ BEGIN_JUCER_METADATA
     <ROUNDRECT pos="16 472 512 112" cornerSize="10" fill="solid: ffb2c1c1" hasStroke="0"/>
   </BACKGROUND>
   <SLIDER name="1" id="4f03517362eb46ec" memberName="tune1" virtualName=""
-          explicitFocusOrder="0" pos="24 64 64 72" min="0" max="1000" int="0.01"
+          explicitFocusOrder="0" pos="24 64 48 68" min="0" max="1000" int="0.01"
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <SLIDER name="6" id="14f00b477c145d5" memberName="veloA1" virtualName=""
-          explicitFocusOrder="0" pos="24 216 64 72" min="0" max="5" int="0.01"
+          explicitFocusOrder="0" pos="24 216 48 68" min="0" max="5" int="0.01"
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <SLIDER name="7" id="d670697c4007d965" memberName="veloD1" virtualName=""
-          explicitFocusOrder="0" pos="96 216 64 72" min="0" max="5" int="0.01"
+          explicitFocusOrder="0" pos="96 216 48 68" min="0" max="5" int="0.01"
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <SLIDER name="40" id="d3384654b4f8387b" memberName="drive1" virtualName=""
-          explicitFocusOrder="0" pos="768 64 64 72" min="0" max="100" int="0.01"
+          explicitFocusOrder="0" pos="768 64 48 68" min="0" max="100" int="0.01"
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <SLIDER name="37" id="77d84fabe46bffd6" memberName="vol1" virtualName=""
-          explicitFocusOrder="0" pos="552 64 64 72" min="0" max="100" int="0.01"
+          explicitFocusOrder="0" pos="552 64 48 68" min="0" max="100" int="0.01"
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <SLIDER name="38" id="ec7badf74f924d4f" memberName="pan1" virtualName=""
-          explicitFocusOrder="0" pos="624 64 64 72" min="0" max="1" int="0.01"
+          explicitFocusOrder="0" pos="624 64 48 68" min="0" max="1" int="0.01"
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="4227c0004165d2e6" memberName="label" virtualName=""
@@ -1609,7 +1609,7 @@ BEGIN_JUCER_METADATA
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
   <SLIDER name="39" id="76165c7502bacefe" memberName="sampleRate" virtualName=""
-          explicitFocusOrder="0" pos="696 64 64 72" min="0" max="1" int="0.01"
+          explicitFocusOrder="0" pos="696 64 48 68" min="0" max="1" int="0.01"
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="2c6e10397ddce52d" memberName="label16" virtualName=""
@@ -1631,7 +1631,7 @@ BEGIN_JUCER_METADATA
          editableDoubleClick="0" focusDiscardsChanges="0" fontname="Default font"
          fontsize="15" bold="0" italic="0" justification="33"/>
   <SLIDER name="14" id="b89ca8e5f65bf3ca" memberName="modAmount2" virtualName=""
-          explicitFocusOrder="0" pos="440 368 64 72" min="0" max="100"
+          explicitFocusOrder="0" pos="440 368 48 68" min="0" max="100"
           int="0.01" style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="9dca8054c8d83d1b" memberName="amountLabel2"
@@ -1657,7 +1657,7 @@ BEGIN_JUCER_METADATA
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
   <SLIDER name="2" id="9c71d6ea37608b0f" memberName="tune2" virtualName=""
-          explicitFocusOrder="0" pos="96 64 64 72" min="0" max="1000" int="0.01"
+          explicitFocusOrder="0" pos="96 64 48 68" min="0" max="1000" int="0.01"
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="e190283e636323af" memberName="label19" virtualName=""
@@ -1679,7 +1679,7 @@ BEGIN_JUCER_METADATA
             explicitFocusOrder="0" pos="184 392 72 24" editable="0" layout="33"
             items="click&#10;plop&#10;..." textWhenNonSelected="" textWhenNoItems="(no choices)"/>
   <SLIDER name="23" id="aca34635efe71d90" memberName="transVol" virtualName=""
-          explicitFocusOrder="0" pos="24 368 64 72" min="0" max="100" int="0.01"
+          explicitFocusOrder="0" pos="24 368 48 68" min="0" max="100" int="0.01"
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="4a5256442accc447" memberName="label21" virtualName=""
@@ -1688,7 +1688,7 @@ BEGIN_JUCER_METADATA
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
   <SLIDER name="24" id="ccbc5d38ef5980f8" memberName="transFreq" virtualName=""
-          explicitFocusOrder="0" pos="96 368 64 72" min="0" max="100" int="0.01"
+          explicitFocusOrder="0" pos="96 368 48 68" min="0" max="100" int="0.01"
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="d7c1e305a6593fd7" memberName="freqLabel6"
@@ -1702,7 +1702,7 @@ BEGIN_JUCER_METADATA
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="1" italic="0" justification="33"/>
   <SLIDER name="25" id="f561ecf39ca1b4ca" memberName="filterFreq" virtualName=""
-          explicitFocusOrder="0" pos="552 216 64 72" min="0" max="100"
+          explicitFocusOrder="0" pos="552 216 48 68" min="0" max="100"
           int="0.01" style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="dbd014f1eafdfc7d" memberName="freqLabel7"
@@ -1711,7 +1711,7 @@ BEGIN_JUCER_METADATA
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
   <SLIDER name="26" id="6802ceb361a70963" memberName="filterRes" virtualName=""
-          explicitFocusOrder="0" pos="624 216 64 72" min="0" max="100"
+          explicitFocusOrder="0" pos="624 216 48 68" min="0" max="100"
           int="0.01" style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="f8dee82b963de8f" memberName="freqLabel8"
@@ -1729,7 +1729,7 @@ BEGIN_JUCER_METADATA
             items="LP&#10;HP&#10;BP&#10;Unity Gain BP&#10;Notch&#10;Peak"
             textWhenNonSelected="" textWhenNoItems="(no choices)"/>
   <SLIDER name="28" id="25c19dbe58872b24" memberName="filterDrive" virtualName=""
-          explicitFocusOrder="0" pos="696 216 64 72" min="0" max="100"
+          explicitFocusOrder="0" pos="696 216 48 68" min="0" max="100"
           int="0.01" style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="93145270f3d928a4" memberName="label23" virtualName=""
@@ -1761,11 +1761,11 @@ BEGIN_JUCER_METADATA
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
   <SLIDER name="16" id="774e43a7ca7ef6b1" memberName="tune3" virtualName=""
-          explicitFocusOrder="0" pos="288 64 64 72" min="0" max="1000"
+          explicitFocusOrder="0" pos="288 64 48 68" min="0" max="1000"
           int="0.01" style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <SLIDER name="17" id="51625c1e01b9ea79" memberName="tune4" virtualName=""
-          explicitFocusOrder="0" pos="288 208 64 72" min="0" max="1000"
+          explicitFocusOrder="0" pos="288 208 48 68" min="0" max="1000"
           int="0.01" style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="c339f895339bd19" memberName="label4" virtualName=""
@@ -1779,7 +1779,7 @@ BEGIN_JUCER_METADATA
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
   <SLIDER name="18" id="1d229475b4bcde6" memberName="tune5" virtualName=""
-          explicitFocusOrder="0" pos="360 64 64 72" min="0" max="1000"
+          explicitFocusOrder="0" pos="360 64 48 68" min="0" max="1000"
           int="0.01" style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="f5b909da18fd9082" memberName="label8" virtualName=""
@@ -1793,7 +1793,7 @@ BEGIN_JUCER_METADATA
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
   <SLIDER name="19" id="7da47a670f8385cb" memberName="tune6" virtualName=""
-          explicitFocusOrder="0" pos="360 208 64 72" min="0" max="1000"
+          explicitFocusOrder="0" pos="360 208 48 68" min="0" max="1000"
           int="0.01" style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="4981d50571123c45" memberName="freqLabel2"
@@ -1820,7 +1820,7 @@ BEGIN_JUCER_METADATA
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="1" italic="0" justification="33"/>
   <SLIDER name="29" id="419c53e60edd0185" memberName="transVol2" virtualName=""
-          explicitFocusOrder="0" pos="26 504 64 72" min="0" max="100" int="0.01"
+          explicitFocusOrder="0" pos="26 504 48 68" min="0" max="100" int="0.01"
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="cb26413870e8b929" memberName="label27" virtualName=""
@@ -1834,11 +1834,11 @@ BEGIN_JUCER_METADATA
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
   <SLIDER name="31" id="e78d399fcb5c5f8" memberName="transVol4" virtualName=""
-          explicitFocusOrder="0" pos="98 504 64 72" min="0" max="100" int="0.01"
+          explicitFocusOrder="0" pos="98 504 48 68" min="0" max="100" int="0.01"
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <SLIDER name="34" id="4f00415d7467367a" memberName="transVol7" virtualName=""
-          explicitFocusOrder="0" pos="170 504 64 72" min="0" max="100"
+          explicitFocusOrder="0" pos="170 504 48 68" min="0" max="100"
           int="0.01" style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="f112708cc74207ca" memberName="freqLabel11"
