@@ -1,20 +1,26 @@
 /*
-	Copyright 2013 Julian Schmidt
+	=========================================================
+				Copyright 2013 Julian Schmidt
 
 	This file is part of the Sonic Potions Drumsynth Editor
+	=========================================================
 
-    The Sonic Potions Drumsynth Editor is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
+    The Sonic Potions Drumsynth Editor is free software: you 
+	can redistribute it and/or modify it under the terms of 
+	the GNU General Public License as published by the Free 
+	Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    The Sonic Potions Drumsynth Editor is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+    The Sonic Potions Drumsynth Editor is distributed in the
+	hope that it will be useful, but WITHOUT ANY WARRANTY; 
+	without even the implied warranty of MERCHANTABILITY or 
+	FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General 
+	Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+    You should have received a copy of the GNU General 
+	Public License along with the Sonic Potions Drumsynth 
+	Editor. If not, see <http://www.gnu.org/licenses/>.
+	=========================================================
  */
 #pragma once
 
@@ -32,6 +38,7 @@
 #define NUM_BEGINS 10
 
 #define NUM_PATTERNS 11
+/*
 static char namePatterns[NUM_PATTERNS][10] = 
 {
 	{"b_vcve_"},
@@ -158,6 +165,7 @@ static String markovNames(     "Proton,Solaris,Groove,Beat,funk,jam,wobble, drum
 						clapper,stomper,sonic,potion,pikatchu,scope,kling,zerg,who,tardis,zap,metall,bell,pop,\
 						cypher,phreak,freak,fraggle,pounding,cruise,sky,starlab,planet,obsidian,emerald,ruby,pane,\
 						ooze,turtle,splinter,krank,rock,steady,bebop");
+						*/
 //---------------------------------------------------------------------------
 class NameGenerator
 {
@@ -178,7 +186,7 @@ public:
 			jassertfalse;
 		*/
 
-		File input(File::getCurrentWorkingDirectory().getFullPathName() + String("/3wordNamelist.txt"));
+		File input(File::getCurrentWorkingDirectory().getFullPathName() + String("/resources/3wordNamelist.txt"));
 		input.readLines(m3Letters);
 		m3Letters.removeDuplicates(true);
 

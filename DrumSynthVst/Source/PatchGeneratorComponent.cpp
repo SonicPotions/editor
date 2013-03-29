@@ -1,23 +1,27 @@
 /*
-  ==============================================================================
+	=========================================================
+				Copyright 2013 Julian Schmidt
 
-  This is an automatically generated file created by the Jucer!
+	This file is part of the Sonic Potions Drumsynth Editor
+	=========================================================
 
-  Creation date:  1 Jan 2013 12:13:34pm
+    The Sonic Potions Drumsynth Editor is free software: you 
+	can redistribute it and/or modify it under the terms of 
+	the GNU General Public License as published by the Free 
+	Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-  Be careful when adding custom code to these files, as only the code within
-  the "//[xyz]" and "//[/xyz]" sections will be retained when the file is loaded
-  and re-saved.
+    The Sonic Potions Drumsynth Editor is distributed in the
+	hope that it will be useful, but WITHOUT ANY WARRANTY; 
+	without even the implied warranty of MERCHANTABILITY or 
+	FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General 
+	Public License for more details.
 
-  Jucer version: 1.12
-
-  ------------------------------------------------------------------------------
-
-  The Jucer is part of the JUCE library - "Jules' Utility Class Extensions"
-  Copyright 2004-6 by Raw Material Software ltd.
-
-  ==============================================================================
-*/
+    You should have received a copy of the GNU General 
+	Public License along with the Sonic Potions Drumsynth 
+	Editor. If not, see <http://www.gnu.org/licenses/>.
+	=========================================================
+ */
 
 //[Headers] You can add your own extra header files here...
 /*
