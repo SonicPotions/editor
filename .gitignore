@@ -30,7 +30,7 @@
 *.snd
 *.pat
 *.PAT
-#*.manifest
-#*.cfg
-#*.dep
+*.manifest
+*.cfg
+*.dep
 
