@@ -27,7 +27,10 @@
 *.bak
 *.user
 *.SND
+*.res
+*.dep
 *.snd
+*.pch
 *.pat
 *.PAT
 *.manifest
