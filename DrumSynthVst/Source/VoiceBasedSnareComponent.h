@@ -3,7 +3,7 @@
 
   This is an automatically generated file created by the Jucer!
 
-  Creation date:  25 Mar 2013 6:54:57pm
+  Creation date:  30 Mar 2013 3:16:11pm
 
   Be careful when adding custom code to these files, as only the code within
   the "//[xyz]" and "//[/xyz]" sections will be retained when the file is loaded
@@ -19,8 +19,8 @@
   ==============================================================================
 */
 
-#ifndef __JUCER_HEADER_VOICEBASEDSNARECOMPONENT_VOICEBASEDSNARECOMPONENT_25E42147__
-#define __JUCER_HEADER_VOICEBASEDSNARECOMPONENT_VOICEBASEDSNARECOMPONENT_25E42147__
+#ifndef __JUCER_HEADER_VOICEBASEDSNARECOMPONENT_VOICEBASEDSNARECOMPONENT_686FACFC__
+#define __JUCER_HEADER_VOICEBASEDSNARECOMPONENT_VOICEBASEDSNARECOMPONENT_686FACFC__
 
 //[Headers]     -- You can add your own extra header files here --
 /*
@@ -30,20 +30,20 @@
 	This file is part of the Sonic Potions Drumsynth Editor
 	=========================================================
 
-    The Sonic Potions Drumsynth Editor is free software: you 
-	can redistribute it and/or modify it under the terms of 
-	the GNU General Public License as published by the Free 
+    The Sonic Potions Drumsynth Editor is free software: you
+	can redistribute it and/or modify it under the terms of
+	the GNU General Public License as published by the Free
 	Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
     The Sonic Potions Drumsynth Editor is distributed in the
-	hope that it will be useful, but WITHOUT ANY WARRANTY; 
-	without even the implied warranty of MERCHANTABILITY or 
-	FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General 
+	hope that it will be useful, but WITHOUT ANY WARRANTY;
+	without even the implied warranty of MERCHANTABILITY or
+	FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General
 	Public License for more details.
 
-    You should have received a copy of the GNU General 
-	Public License along with the Sonic Potions Drumsynth 
+    You should have received a copy of the GNU General
+	Public License along with the Sonic Potions Drumsynth
 	Editor. If not, see <http://www.gnu.org/licenses/>.
 	=========================================================
  */
@@ -183,4 +183,4 @@ private:
 };
 
 
-#endif   // __JUCER_HEADER_VOICEBASEDSNARECOMPONENT_VOICEBASEDSNARECOMPONENT_25E42147__
+#endif   // __JUCER_HEADER_VOICEBASEDSNARECOMPONENT_VOICEBASEDSNARECOMPONENT_686FACFC__

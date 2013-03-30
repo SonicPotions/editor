@@ -30,6 +30,12 @@ class GreenLookAndFeel : public LookAndFeel
 public:
 	GreenLookAndFeel()
 	{
+		setColour (Label::textColourId, Colour (0xffffffff));
+
+		setColour (Slider::textBoxBackgroundColourId, Colour (0xff000000));
+		//setColour (Slider::textBoxHighlightColourId, Colour (0xff000000));
+		setColour (Slider::textBoxOutlineColourId, Colour (0xff747373));
+		setColour (Slider::textBoxTextColourId, Colour (0xff64d74b));
 		/*
 		setColour (Editor_backgroundColor, Colour (0xff000000));
 		setColour (Editor_outlineId, Colour (0xff6aa52a));

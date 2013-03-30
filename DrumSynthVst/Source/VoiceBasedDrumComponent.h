@@ -3,7 +3,7 @@
 
   This is an automatically generated file created by the Jucer!
 
-  Creation date:  29 Mar 2013 11:09:02am
+  Creation date:  30 Mar 2013 1:12:01pm
 
   Be careful when adding custom code to these files, as only the code within
   the "//[xyz]" and "//[/xyz]" sections will be retained when the file is loaded
@@ -19,8 +19,8 @@
   ==============================================================================
 */
 
-#ifndef __JUCER_HEADER_VOICEBASEDDRUMCOMPONENT_VOICEBASEDDRUMCOMPONENT_68CD91FC__
-#define __JUCER_HEADER_VOICEBASEDDRUMCOMPONENT_VOICEBASEDDRUMCOMPONENT_68CD91FC__
+#ifndef __JUCER_HEADER_VOICEBASEDDRUMCOMPONENT_VOICEBASEDDRUMCOMPONENT_8B5ED55E__
+#define __JUCER_HEADER_VOICEBASEDDRUMCOMPONENT_VOICEBASEDDRUMCOMPONENT_8B5ED55E__
 
 //[Headers]     -- You can add your own extra header files here --
 /*
@@ -188,4 +188,4 @@ private:
 };
 
 
-#endif   // __JUCER_HEADER_VOICEBASEDDRUMCOMPONENT_VOICEBASEDDRUMCOMPONENT_68CD91FC__
+#endif   // __JUCER_HEADER_VOICEBASEDDRUMCOMPONENT_VOICEBASEDDRUMCOMPONENT_8B5ED55E__

@@ -82,14 +82,23 @@ MainComponent::MainComponent ()
 //	mDeviceManager.addMidiInputCallback (String::empty, mArpEditorComponent);
 
 	File xmlFile(File(File::getSpecialLocation(File::currentApplicationFile).getParentDirectory().getFullPathName() + String("/midi.cfg")));
-	XmlDocument xmlDoc(xmlFile);
-	XmlElement* xml = xmlDoc.getDocumentElement();
+	if(xmlFile.exists())
+	{
+		XmlDocument xmlDoc(xmlFile);
+		XmlElement* xml = xmlDoc.getDocumentElement();
 
-	mDeviceManager.initialise(0,0,xml,true);
-	if(AudioDemoSetupPage::globalMidiOut == NULL) {
-		DialogWindow::showDialog("MIDI Setup",mMidiSetupPage,this,findColour(DocumentWindow::backgroundColourId),true,false,false);
+		mDeviceManager.initialise(0,0,xml,true);
+		AudioDemoSetupPage::globalMidiOut = 	mDeviceManager.getDefaultMidiOutput () ;
+		if(AudioDemoSetupPage::globalMidiOut == NULL) {
+			DialogWindow::showDialog("MIDI Setup",mMidiSetupPage,this,findColour(DocumentWindow::backgroundColourId),true,false,false);
+		}
+		deleteAndZero(xml);
+	} else {
+		if(AudioDemoSetupPage::globalMidiOut == NULL) {
+			DialogWindow::showDialog("MIDI Setup",mMidiSetupPage,this,findColour(DocumentWindow::backgroundColourId),true,false,false);
+		}
+	
 	}
-	deleteAndZero(xml);
 
 
 

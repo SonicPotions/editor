@@ -3,7 +3,7 @@
 
   This is an automatically generated file created by the Jucer!
 
-  Creation date:  25 Mar 2013 12:23:56pm
+  Creation date:  30 Mar 2013 2:58:51pm
 
   Be careful when adding custom code to these files, as only the code within
   the "//[xyz]" and "//[/xyz]" sections will be retained when the file is loaded
@@ -27,20 +27,20 @@
 	This file is part of the Sonic Potions Drumsynth Editor
 	=========================================================
 
-    The Sonic Potions Drumsynth Editor is free software: you 
-	can redistribute it and/or modify it under the terms of 
-	the GNU General Public License as published by the Free 
+    The Sonic Potions Drumsynth Editor is free software: you
+	can redistribute it and/or modify it under the terms of
+	the GNU General Public License as published by the Free
 	Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
     The Sonic Potions Drumsynth Editor is distributed in the
-	hope that it will be useful, but WITHOUT ANY WARRANTY; 
-	without even the implied warranty of MERCHANTABILITY or 
-	FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General 
+	hope that it will be useful, but WITHOUT ANY WARRANTY;
+	without even the implied warranty of MERCHANTABILITY or
+	FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General
 	Public License for more details.
 
-    You should have received a copy of the GNU General 
-	Public License along with the Sonic Potions Drumsynth 
+    You should have received a copy of the GNU General
+	Public License along with the Sonic Potions Drumsynth
 	Editor. If not, see <http://www.gnu.org/licenses/>.
 	=========================================================
  */
@@ -307,12 +307,14 @@ VoiceBasedHatComponent::VoiceBasedHatComponent (int voiceNr)
     addAndMakeVisible (velocityModulationOnOff = new ToggleButton (L"15"));
     velocityModulationOnOff->setButtonText (L"Amplitude Modulation");
     velocityModulationOnOff->addListener (this);
+    velocityModulationOnOff->setColour (ToggleButton::textColourId, Colours::white);
 
     addAndMakeVisible (label18 = new Label (L"new label",
                                             L"Output"));
     label18->setFont (Font (15.0000f, Font::plain));
     label18->setJustificationType (Justification::centredLeft);
     label18->setEditable (false, false, false);
+    label18->setColour (Label::textColourId, Colours::white);
     label18->setColour (TextEditor::textColourId, Colours::black);
     label18->setColour (TextEditor::backgroundColourId, Colour (0x0));
 
@@ -424,6 +426,7 @@ VoiceBasedHatComponent::VoiceBasedHatComponent (int voiceNr)
     freqLabel7->setFont (Font (15.0000f, Font::plain));
     freqLabel7->setJustificationType (Justification::centredLeft);
     freqLabel7->setEditable (false, false, false);
+    freqLabel7->setColour (Label::textColourId, Colours::white);
     freqLabel7->setColour (TextEditor::textColourId, Colours::black);
     freqLabel7->setColour (TextEditor::backgroundColourId, Colour (0x0));
 
@@ -644,6 +647,7 @@ VoiceBasedHatComponent::VoiceBasedHatComponent (int voiceNr)
     freqLabel10->setFont (Font (15.0000f, Font::plain));
     freqLabel10->setJustificationType (Justification::centredLeft);
     freqLabel10->setEditable (false, false, false);
+    freqLabel10->setColour (Label::textColourId, Colours::white);
     freqLabel10->setColour (TextEditor::textColourId, Colours::black);
     freqLabel10->setColour (TextEditor::backgroundColourId, Colour (0x0));
 
@@ -664,6 +668,7 @@ VoiceBasedHatComponent::VoiceBasedHatComponent (int voiceNr)
     freqLabel11->setFont (Font (15.0000f, Font::plain));
     freqLabel11->setJustificationType (Justification::centredLeft);
     freqLabel11->setEditable (false, false, false);
+    freqLabel11->setColour (Label::textColourId, Colours::white);
     freqLabel11->setColour (TextEditor::textColourId, Colours::black);
     freqLabel11->setColour (TextEditor::backgroundColourId, Colour (0x0));
 
@@ -672,6 +677,7 @@ VoiceBasedHatComponent::VoiceBasedHatComponent (int voiceNr)
     freqLabel12->setFont (Font (15.0000f, Font::plain));
     freqLabel12->setJustificationType (Justification::centredLeft);
     freqLabel12->setEditable (false, false, false);
+    freqLabel12->setColour (Label::textColourId, Colours::white);
     freqLabel12->setColour (TextEditor::textColourId, Colours::black);
     freqLabel12->setColour (TextEditor::backgroundColourId, Colour (0x0));
 
@@ -680,6 +686,7 @@ VoiceBasedHatComponent::VoiceBasedHatComponent (int voiceNr)
     freqLabel13->setFont (Font (15.0000f, Font::plain));
     freqLabel13->setJustificationType (Justification::centredLeft);
     freqLabel13->setEditable (false, false, false);
+    freqLabel13->setColour (Label::textColourId, Colours::white);
     freqLabel13->setColour (TextEditor::textColourId, Colours::black);
     freqLabel13->setColour (TextEditor::backgroundColourId, Colour (0x0));
 
@@ -688,6 +695,7 @@ VoiceBasedHatComponent::VoiceBasedHatComponent (int voiceNr)
     freqLabel14->setFont (Font (15.0000f, Font::plain));
     freqLabel14->setJustificationType (Justification::centredLeft);
     freqLabel14->setEditable (false, false, false);
+    freqLabel14->setColour (Label::textColourId, Colours::white);
     freqLabel14->setColour (TextEditor::textColourId, Colours::black);
     freqLabel14->setColour (TextEditor::backgroundColourId, Colour (0x0));
 
@@ -696,6 +704,7 @@ VoiceBasedHatComponent::VoiceBasedHatComponent (int voiceNr)
     freqLabel15->setFont (Font (15.0000f, Font::plain));
     freqLabel15->setJustificationType (Justification::centredLeft);
     freqLabel15->setEditable (false, false, false);
+    freqLabel15->setColour (Label::textColourId, Colours::white);
     freqLabel15->setColour (TextEditor::textColourId, Colours::black);
     freqLabel15->setColour (TextEditor::backgroundColourId, Colour (0x0));
 
@@ -704,6 +713,7 @@ VoiceBasedHatComponent::VoiceBasedHatComponent (int voiceNr)
     freqLabel16->setFont (Font (15.0000f, Font::plain));
     freqLabel16->setJustificationType (Justification::centredLeft);
     freqLabel16->setEditable (false, false, false);
+    freqLabel16->setColour (Label::textColourId, Colours::white);
     freqLabel16->setColour (TextEditor::textColourId, Colours::black);
     freqLabel16->setColour (TextEditor::backgroundColourId, Colour (0x0));
 
@@ -712,6 +722,7 @@ VoiceBasedHatComponent::VoiceBasedHatComponent (int voiceNr)
     freqLabel17->setFont (Font (15.0000f, Font::plain));
     freqLabel17->setJustificationType (Justification::centredLeft);
     freqLabel17->setEditable (false, false, false);
+    freqLabel17->setColour (Label::textColourId, Colours::white);
     freqLabel17->setColour (TextEditor::textColourId, Colours::black);
     freqLabel17->setColour (TextEditor::backgroundColourId, Colour (0x0));
 
@@ -894,34 +905,34 @@ void VoiceBasedHatComponent::paint (Graphics& g)
     //[UserPrePaint] Add your own custom painting code here..
     //[/UserPrePaint]
 
-    g.fillAll (Colour (0xff788384));
+    g.fillAll (Colour (0xff494949));
 
-    g.setColour (Colour (0xffb2c1c1));
-    g.fillRoundedRectangle (12.0f, 20.0f, 252.0f, 140.0f, 10.0000f);
+    g.setColour (Colour (0xff0bb801));
+    g.fillRoundedRectangle (12.0f, 20.0f, 252.0f, 15.0f, 4.5000f);
 
-    g.setColour (Colour (0xffb2c1c1));
-    g.fillRoundedRectangle (12.0f, 172.0f, 252.0f, 140.0f, 10.0000f);
+    g.setColour (Colour (0xff0bb801));
+    g.fillRoundedRectangle (12.0f, 172.0f, 252.0f, 15.0f, 4.5000f);
 
-    g.setColour (Colour (0xffb2c1c1));
-    g.fillRoundedRectangle (276.0f, 21.0f, 252.0f, 288.0f, 10.0000f);
+    g.setColour (Colour (0xff0bb801));
+    g.fillRoundedRectangle (276.0f, 21.0f, 252.0f, 15.0f, 4.5000f);
 
-    g.setColour (Colour (0xffb2c1c1));
-    g.fillRoundedRectangle (12.0f, 324.0f, 252.0f, 140.0f, 10.0000f);
+    g.setColour (Colour (0xff0bb801));
+    g.fillRoundedRectangle (12.0f, 324.0f, 252.0f, 15.0f, 4.5000f);
 
-    g.setColour (Colour (0xffb2c1c1));
-    g.fillRoundedRectangle (276.0f, 324.0f, 252.0f, 140.0f, 10.0000f);
+    g.setColour (Colour (0xff0bb801));
+    g.fillRoundedRectangle (276.0f, 324.0f, 252.0f, 15.0f, 4.5000f);
 
-    g.setColour (Colour (0xffb2c1c1));
-    g.fillRoundedRectangle (544.0f, 327.0f, 296.0f, 57.0f, 10.0000f);
+    g.setColour (Colour (0xff0bb801));
+    g.fillRoundedRectangle (544.0f, 327.0f, 296.0f, 15.0f, 4.5000f);
 
-    g.setColour (Colour (0xffb2c1c1));
-    g.fillRoundedRectangle (543.0f, 21.0f, 297.0f, 140.0f, 10.0000f);
+    g.setColour (Colour (0xff0bb801));
+    g.fillRoundedRectangle (543.0f, 21.0f, 297.0f, 15.0f, 4.5000f);
 
-    g.setColour (Colour (0xffb2c1c1));
-    g.fillRoundedRectangle (542.0f, 171.0f, 298.0f, 140.0f, 10.0000f);
+    g.setColour (Colour (0xff0bb801));
+    g.fillRoundedRectangle (542.0f, 171.0f, 298.0f, 15.0f, 4.5000f);
 
-    g.setColour (Colour (0xffb2c1c1));
-    g.fillRoundedRectangle (16.0f, 472.0f, 512.0f, 112.0f, 10.0000f);
+    g.setColour (Colour (0xff0bb801));
+    g.fillRoundedRectangle (16.0f, 472.0f, 512.0f, 15.0f, 4.5000f);
 
     //[UserPaint] Add your own custom painting code here..
     //[/UserPaint]
@@ -937,39 +948,39 @@ void VoiceBasedHatComponent::resized()
     pan1->setBounds (624, 64, 48, 68);
     label->setBounds (32, 192, 56, 24);
     label2->setBounds (104, 192, 54, 24);
-    label3->setBounds (32, 40, 54, 24);
+    label3->setBounds (24, 40, 54, 24);
     label6->setBounds (16, 168, 160, 24);
     slopeVelo->setBounds (168, 208, 88, 32);
     label9->setBounds (160, 192, 54, 24);
     label12->setBounds (552, 16, 160, 24);
-    label13->setBounds (776, 40, 54, 24);
-    label14->setBounds (560, 40, 54, 24);
-    label15->setBounds (640, 40, 54, 24);
+    label13->setBounds (768, 40, 54, 24);
+    label14->setBounds (552, 40, 54, 24);
+    label15->setBounds (632, 40, 54, 24);
     sampleRate->setBounds (696, 64, 48, 68);
-    label16->setBounds (696, 40, 88, 24);
+    label16->setBounds (680, 40, 88, 24);
     label5->setBounds (280, 320, 160, 24);
     comboBox->setBounds (288, 368, 88, 24);
     label17->setBounds (280, 344, 112, 24);
     modAmount2->setBounds (440, 368, 48, 68);
-    amountLabel2->setBounds (448, 344, 72, 24);
+    amountLabel2->setBounds (440, 344, 72, 24);
     velocityModulationOnOff->setBounds (288, 408, 144, 24);
     label18->setBounds (560, 344, 112, 24);
     outputSelectCombo->setBounds (624, 344, 136, 24);
     freqLabel4->setBounds (168, 40, 72, 24);
     tune2->setBounds (96, 64, 48, 68);
-    label19->setBounds (112, 40, 54, 24);
+    label19->setBounds (104, 40, 54, 24);
     label20->setBounds (16, 320, 160, 24);
     freqLabel5->setBounds (184, 344, 72, 24);
     comboBox2->setBounds (184, 392, 72, 24);
     transVol->setBounds (24, 368, 48, 68);
     label21->setBounds (24, 344, 54, 24);
     transFreq->setBounds (96, 368, 48, 68);
-    freqLabel6->setBounds (112, 344, 72, 24);
+    freqLabel6->setBounds (104, 344, 72, 24);
     label22->setBounds (544, 168, 160, 24);
     filterFreq->setBounds (552, 216, 48, 68);
-    freqLabel7->setBounds (565, 192, 72, 24);
+    freqLabel7->setBounds (560, 192, 72, 24);
     filterRes->setBounds (624, 216, 48, 68);
-    freqLabel8->setBounds (640, 192, 72, 24);
+    freqLabel8->setBounds (632, 192, 72, 24);
     freqLabel9->setBounds (776, 192, 72, 24);
     comboBox3->setBounds (768, 232, 64, 24);
     filterDrive->setBounds (696, 216, 48, 68);
@@ -981,11 +992,11 @@ void VoiceBasedHatComponent::resized()
     label11->setBounds (160, 232, 96, 24);
     tune3->setBounds (288, 64, 48, 68);
     tune4->setBounds (288, 208, 48, 68);
-    label4->setBounds (296, 40, 54, 24);
-    label7->setBounds (288, 176, 54, 24);
+    label4->setBounds (288, 40, 54, 24);
+    label7->setBounds (288, 184, 54, 24);
     tune5->setBounds (360, 64, 48, 68);
-    label8->setBounds (368, 40, 54, 24);
-    label10->setBounds (368, 176, 54, 24);
+    label8->setBounds (360, 40, 54, 24);
+    label10->setBounds (360, 184, 54, 24);
     tune6->setBounds (360, 208, 48, 68);
     freqLabel2->setBounds (438, 45, 72, 24);
     comboBox5->setBounds (438, 85, 81, 24);
@@ -993,15 +1004,15 @@ void VoiceBasedHatComponent::resized()
     comboBox6->setBounds (440, 221, 81, 24);
     label26->setBounds (280, 16, 160, 24);
     transVol2->setBounds (26, 504, 48, 68);
-    label27->setBounds (18, 472, 160, 24);
-    freqLabel10->setBounds (41, 484, 72, 24);
+    label27->setBounds (16, 468, 160, 24);
+    freqLabel10->setBounds (32, 480, 72, 24);
     transVol4->setBounds (98, 504, 48, 68);
     transVol7->setBounds (170, 504, 48, 68);
     freqLabel11->setBounds (434, 480, 48, 24);
-    freqLabel12->setBounds (106, 480, 64, 24);
+    freqLabel12->setBounds (96, 480, 64, 24);
     freqLabel13->setBounds (242, 480, 64, 24);
     freqLabel14->setBounds (242, 528, 64, 24);
-    freqLabel15->setBounds (178, 480, 64, 24);
+    freqLabel15->setBounds (176, 480, 64, 24);
     freqLabel16->setBounds (338, 480, 64, 24);
     freqLabel17->setBounds (338, 528, 120, 24);
     comboBox7->setBounds (242, 504, 81, 24);
@@ -1522,18 +1533,19 @@ BEGIN_JUCER_METADATA
                  variableInitialisers="" snapPixels="8" snapActive="1" snapShown="1"
                  overlayOpacity="0.330000013" fixedSize="1" initialWidth="850"
                  initialHeight="600">
-  <BACKGROUND backgroundColour="ff788384">
-    <ROUNDRECT pos="12 20 252 140" cornerSize="10" fill="solid: ffb2c1c1" hasStroke="0"/>
-    <ROUNDRECT pos="12 172 252 140" cornerSize="10" fill="solid: ffb2c1c1" hasStroke="0"/>
-    <ROUNDRECT pos="276 21 252 288" cornerSize="10" fill="solid: ffb2c1c1" hasStroke="0"/>
-    <ROUNDRECT pos="12 324 252 140" cornerSize="10" fill="solid: ffb2c1c1" hasStroke="0"/>
-    <ROUNDRECT pos="276 324 252 140" cornerSize="10" fill="solid: ffb2c1c1"
+  <BACKGROUND backgroundColour="ff494949">
+    <ROUNDRECT pos="12 20 252 15" cornerSize="4.5" fill="solid: ff0bb801" hasStroke="0"/>
+    <ROUNDRECT pos="12 172 252 15" cornerSize="4.5" fill="solid: ff0bb801" hasStroke="0"/>
+    <ROUNDRECT pos="276 21 252 15" cornerSize="4.5" fill="solid: ff0bb801" hasStroke="0"/>
+    <ROUNDRECT pos="12 324 252 15" cornerSize="4.5" fill="solid: ff0bb801" hasStroke="0"/>
+    <ROUNDRECT pos="276 324 252 15" cornerSize="4.5" fill="solid: ff0bb801"
                hasStroke="0"/>
-    <ROUNDRECT pos="544 327 296 57" cornerSize="10" fill="solid: ffb2c1c1" hasStroke="0"/>
-    <ROUNDRECT pos="543 21 297 140" cornerSize="10" fill="solid: ffb2c1c1" hasStroke="0"/>
-    <ROUNDRECT pos="542 171 298 140" cornerSize="10" fill="solid: ffb2c1c1"
+    <ROUNDRECT pos="544 327 296 15" cornerSize="4.5" fill="solid: ff0bb801"
                hasStroke="0"/>
-    <ROUNDRECT pos="16 472 512 112" cornerSize="10" fill="solid: ffb2c1c1" hasStroke="0"/>
+    <ROUNDRECT pos="543 21 297 15" cornerSize="4.5" fill="solid: ff0bb801" hasStroke="0"/>
+    <ROUNDRECT pos="542 171 298 15" cornerSize="4.5" fill="solid: ff0bb801"
+               hasStroke="0"/>
+    <ROUNDRECT pos="16 472 512 15" cornerSize="4.5" fill="solid: ff0bb801" hasStroke="0"/>
   </BACKGROUND>
   <SLIDER name="1" id="4f03517362eb46ec" memberName="tune1" virtualName=""
           explicitFocusOrder="0" pos="24 64 48 68" min="0" max="1000" int="0.01"
@@ -1570,7 +1582,7 @@ BEGIN_JUCER_METADATA
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
   <LABEL name="new label" id="4929dd529c8ae58c" memberName="label3" virtualName=""
-         explicitFocusOrder="0" pos="32 40 54 24" edTextCol="ff000000"
+         explicitFocusOrder="0" pos="24 40 54 24" edTextCol="ff000000"
          edBkgCol="0" labelText="Coarse" editableSingleClick="0" editableDoubleClick="0"
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
@@ -1594,17 +1606,17 @@ BEGIN_JUCER_METADATA
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="1" italic="0" justification="33"/>
   <LABEL name="new label" id="e1a3de95a15ef589" memberName="label13" virtualName=""
-         explicitFocusOrder="0" pos="776 40 54 24" edTextCol="ff000000"
+         explicitFocusOrder="0" pos="768 40 54 24" edTextCol="ff000000"
          edBkgCol="0" labelText="Drive" editableSingleClick="0" editableDoubleClick="0"
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
   <LABEL name="new label" id="5d6dcde3e72f21a1" memberName="label14" virtualName=""
-         explicitFocusOrder="0" pos="560 40 54 24" edTextCol="ff000000"
+         explicitFocusOrder="0" pos="552 40 54 24" edTextCol="ff000000"
          edBkgCol="0" labelText="Volume" editableSingleClick="0" editableDoubleClick="0"
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
   <LABEL name="new label" id="f99147408448971e" memberName="label15" virtualName=""
-         explicitFocusOrder="0" pos="640 40 54 24" edTextCol="ff000000"
+         explicitFocusOrder="0" pos="632 40 54 24" edTextCol="ff000000"
          edBkgCol="0" labelText="Pan" editableSingleClick="0" editableDoubleClick="0"
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
@@ -1613,7 +1625,7 @@ BEGIN_JUCER_METADATA
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="2c6e10397ddce52d" memberName="label16" virtualName=""
-         explicitFocusOrder="0" pos="696 40 88 24" edTextCol="ff000000"
+         explicitFocusOrder="0" pos="680 40 88 24" edTextCol="ff000000"
          edBkgCol="0" labelText="Samplerate" editableSingleClick="0" editableDoubleClick="0"
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
@@ -1635,18 +1647,19 @@ BEGIN_JUCER_METADATA
           int="0.01" style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="9dca8054c8d83d1b" memberName="amountLabel2"
-         virtualName="" explicitFocusOrder="0" pos="448 344 72 24" edTextCol="ff000000"
+         virtualName="" explicitFocusOrder="0" pos="440 344 72 24" edTextCol="ff000000"
          edBkgCol="0" labelText="Amount" editableSingleClick="0" editableDoubleClick="0"
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
   <TOGGLEBUTTON name="15" id="77d0e1ef525c48c3" memberName="velocityModulationOnOff"
-                virtualName="" explicitFocusOrder="0" pos="288 408 144 24" buttonText="Amplitude Modulation"
-                connectedEdges="0" needsCallback="1" radioGroupId="0" state="0"/>
+                virtualName="" explicitFocusOrder="0" pos="288 408 144 24" txtcol="ffffffff"
+                buttonText="Amplitude Modulation" connectedEdges="0" needsCallback="1"
+                radioGroupId="0" state="0"/>
   <LABEL name="new label" id="4919ef99f8b4516d" memberName="label18" virtualName=""
-         explicitFocusOrder="0" pos="560 344 112 24" edTextCol="ff000000"
-         edBkgCol="0" labelText="Output" editableSingleClick="0" editableDoubleClick="0"
-         focusDiscardsChanges="0" fontname="Default font" fontsize="15"
-         bold="0" italic="0" justification="33"/>
+         explicitFocusOrder="0" pos="560 344 112 24" textCol="ffffffff"
+         edTextCol="ff000000" edBkgCol="0" labelText="Output" editableSingleClick="0"
+         editableDoubleClick="0" focusDiscardsChanges="0" fontname="Default font"
+         fontsize="15" bold="0" italic="0" justification="33"/>
   <COMBOBOX name="41" id="79a8f2dfe0b0a688" memberName="outputSelectCombo"
             virtualName="" explicitFocusOrder="0" pos="624 344 136 24" editable="0"
             layout="33" items="Stereo 1&#10;Stereo 2&#10;L1&#10;R1&#10;L2&#10;R2"
@@ -1661,7 +1674,7 @@ BEGIN_JUCER_METADATA
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="e190283e636323af" memberName="label19" virtualName=""
-         explicitFocusOrder="0" pos="112 40 54 24" edTextCol="ff000000"
+         explicitFocusOrder="0" pos="104 40 54 24" edTextCol="ff000000"
          edBkgCol="0" labelText="Fine" editableSingleClick="0" editableDoubleClick="0"
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
@@ -1692,7 +1705,7 @@ BEGIN_JUCER_METADATA
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="d7c1e305a6593fd7" memberName="freqLabel6"
-         virtualName="" explicitFocusOrder="0" pos="112 344 72 24" edTextCol="ff000000"
+         virtualName="" explicitFocusOrder="0" pos="104 344 72 24" edTextCol="ff000000"
          edBkgCol="0" labelText="Freq" editableSingleClick="0" editableDoubleClick="0"
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
@@ -1706,16 +1719,16 @@ BEGIN_JUCER_METADATA
           int="0.01" style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="dbd014f1eafdfc7d" memberName="freqLabel7"
-         virtualName="" explicitFocusOrder="0" pos="565 192 72 24" edTextCol="ff000000"
-         edBkgCol="0" labelText="Freq" editableSingleClick="0" editableDoubleClick="0"
-         focusDiscardsChanges="0" fontname="Default font" fontsize="15"
-         bold="0" italic="0" justification="33"/>
+         virtualName="" explicitFocusOrder="0" pos="560 192 72 24" textCol="ffffffff"
+         edTextCol="ff000000" edBkgCol="0" labelText="Freq" editableSingleClick="0"
+         editableDoubleClick="0" focusDiscardsChanges="0" fontname="Default font"
+         fontsize="15" bold="0" italic="0" justification="33"/>
   <SLIDER name="26" id="6802ceb361a70963" memberName="filterRes" virtualName=""
           explicitFocusOrder="0" pos="624 216 48 68" min="0" max="100"
           int="0.01" style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="f8dee82b963de8f" memberName="freqLabel8"
-         virtualName="" explicitFocusOrder="0" pos="640 192 72 24" edTextCol="ff000000"
+         virtualName="" explicitFocusOrder="0" pos="632 192 72 24" edTextCol="ff000000"
          edBkgCol="0" labelText="Reso" editableSingleClick="0" editableDoubleClick="0"
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
@@ -1769,12 +1782,12 @@ BEGIN_JUCER_METADATA
           int="0.01" style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="c339f895339bd19" memberName="label4" virtualName=""
-         explicitFocusOrder="0" pos="296 40 54 24" edTextCol="ff000000"
+         explicitFocusOrder="0" pos="288 40 54 24" edTextCol="ff000000"
          edBkgCol="0" labelText="Freq. 1" editableSingleClick="0" editableDoubleClick="0"
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
   <LABEL name="new label" id="896965a1975d604e" memberName="label7" virtualName=""
-         explicitFocusOrder="0" pos="288 176 54 24" edTextCol="ff000000"
+         explicitFocusOrder="0" pos="288 184 54 24" edTextCol="ff000000"
          edBkgCol="0" labelText="Freq. 2" editableSingleClick="0" editableDoubleClick="0"
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
@@ -1783,12 +1796,12 @@ BEGIN_JUCER_METADATA
           int="0.01" style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="f5b909da18fd9082" memberName="label8" virtualName=""
-         explicitFocusOrder="0" pos="368 40 54 24" edTextCol="ff000000"
+         explicitFocusOrder="0" pos="360 40 54 24" edTextCol="ff000000"
          edBkgCol="0" labelText="Amount" editableSingleClick="0" editableDoubleClick="0"
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
   <LABEL name="new label" id="24018dc8174f949c" memberName="label10" virtualName=""
-         explicitFocusOrder="0" pos="368 176 54 24" edTextCol="ff000000"
+         explicitFocusOrder="0" pos="360 184 54 24" edTextCol="ff000000"
          edBkgCol="0" labelText="Amount" editableSingleClick="0" editableDoubleClick="0"
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="0" italic="0" justification="33"/>
@@ -1824,15 +1837,15 @@ BEGIN_JUCER_METADATA
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="cb26413870e8b929" memberName="label27" virtualName=""
-         explicitFocusOrder="0" pos="18 472 160 24" edTextCol="ff000000"
+         explicitFocusOrder="0" pos="16 468 160 24" edTextCol="ff000000"
          edBkgCol="0" labelText="LFO" editableSingleClick="0" editableDoubleClick="0"
          focusDiscardsChanges="0" fontname="Default font" fontsize="15"
          bold="1" italic="0" justification="33"/>
   <LABEL name="new label" id="d4c84704b9341578" memberName="freqLabel10"
-         virtualName="" explicitFocusOrder="0" pos="41 484 72 24" edTextCol="ff000000"
-         edBkgCol="0" labelText="Freq" editableSingleClick="0" editableDoubleClick="0"
-         focusDiscardsChanges="0" fontname="Default font" fontsize="15"
-         bold="0" italic="0" justification="33"/>
+         virtualName="" explicitFocusOrder="0" pos="32 480 72 24" textCol="ffffffff"
+         edTextCol="ff000000" edBkgCol="0" labelText="Freq" editableSingleClick="0"
+         editableDoubleClick="0" focusDiscardsChanges="0" fontname="Default font"
+         fontsize="15" bold="0" italic="0" justification="33"/>
   <SLIDER name="31" id="e78d399fcb5c5f8" memberName="transVol4" virtualName=""
           explicitFocusOrder="0" pos="98 504 48 68" min="0" max="100" int="0.01"
           style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
@@ -1842,38 +1855,38 @@ BEGIN_JUCER_METADATA
           int="0.01" style="Rotary" textBoxPos="TextBoxBelow" textBoxEditable="1"
           textBoxWidth="80" textBoxHeight="20" skewFactor="1"/>
   <LABEL name="new label" id="f112708cc74207ca" memberName="freqLabel11"
-         virtualName="" explicitFocusOrder="0" pos="434 480 48 24" edTextCol="ff000000"
-         edBkgCol="0" labelText="sync" editableSingleClick="0" editableDoubleClick="0"
-         focusDiscardsChanges="0" fontname="Default font" fontsize="15"
-         bold="0" italic="0" justification="33"/>
+         virtualName="" explicitFocusOrder="0" pos="434 480 48 24" textCol="ffffffff"
+         edTextCol="ff000000" edBkgCol="0" labelText="sync" editableSingleClick="0"
+         editableDoubleClick="0" focusDiscardsChanges="0" fontname="Default font"
+         fontsize="15" bold="0" italic="0" justification="33"/>
   <LABEL name="new label" id="3cdfe37f7509ef1a" memberName="freqLabel12"
-         virtualName="" explicitFocusOrder="0" pos="106 480 64 24" edTextCol="ff000000"
-         edBkgCol="0" labelText="amount" editableSingleClick="0" editableDoubleClick="0"
-         focusDiscardsChanges="0" fontname="Default font" fontsize="15"
-         bold="0" italic="0" justification="33"/>
+         virtualName="" explicitFocusOrder="0" pos="96 480 64 24" textCol="ffffffff"
+         edTextCol="ff000000" edBkgCol="0" labelText="amount" editableSingleClick="0"
+         editableDoubleClick="0" focusDiscardsChanges="0" fontname="Default font"
+         fontsize="15" bold="0" italic="0" justification="33"/>
   <LABEL name="new label" id="e5f690987af314ed" memberName="freqLabel13"
-         virtualName="" explicitFocusOrder="0" pos="242 480 64 24" edTextCol="ff000000"
-         edBkgCol="0" labelText="waveform" editableSingleClick="0" editableDoubleClick="0"
-         focusDiscardsChanges="0" fontname="Default font" fontsize="15"
-         bold="0" italic="0" justification="33"/>
+         virtualName="" explicitFocusOrder="0" pos="242 480 64 24" textCol="ffffffff"
+         edTextCol="ff000000" edBkgCol="0" labelText="waveform" editableSingleClick="0"
+         editableDoubleClick="0" focusDiscardsChanges="0" fontname="Default font"
+         fontsize="15" bold="0" italic="0" justification="33"/>
   <LABEL name="new label" id="5ffa28137ff56996" memberName="freqLabel14"
-         virtualName="" explicitFocusOrder="0" pos="242 528 64 24" edTextCol="ff000000"
-         edBkgCol="0" labelText="retrigger" editableSingleClick="0" editableDoubleClick="0"
-         focusDiscardsChanges="0" fontname="Default font" fontsize="15"
-         bold="0" italic="0" justification="33"/>
+         virtualName="" explicitFocusOrder="0" pos="242 528 64 24" textCol="ffffffff"
+         edTextCol="ff000000" edBkgCol="0" labelText="retrigger" editableSingleClick="0"
+         editableDoubleClick="0" focusDiscardsChanges="0" fontname="Default font"
+         fontsize="15" bold="0" italic="0" justification="33"/>
   <LABEL name="new label" id="c4bd2e6547c57621" memberName="freqLabel15"
-         virtualName="" explicitFocusOrder="0" pos="178 480 64 24" edTextCol="ff000000"
-         edBkgCol="0" labelText="offset" editableSingleClick="0" editableDoubleClick="0"
-         focusDiscardsChanges="0" fontname="Default font" fontsize="15"
-         bold="0" italic="0" justification="33"/>
+         virtualName="" explicitFocusOrder="0" pos="176 480 64 24" textCol="ffffffff"
+         edTextCol="ff000000" edBkgCol="0" labelText="offset" editableSingleClick="0"
+         editableDoubleClick="0" focusDiscardsChanges="0" fontname="Default font"
+         fontsize="15" bold="0" italic="0" justification="33"/>
   <LABEL name="new label" id="5cdf3cb50f0e05b8" memberName="freqLabel16"
-         virtualName="" explicitFocusOrder="0" pos="338 480 64 24" edTextCol="ff000000"
-         edBkgCol="0" labelText="voice" editableSingleClick="0" editableDoubleClick="0"
-         focusDiscardsChanges="0" fontname="Default font" fontsize="15"
-         bold="0" italic="0" justification="33"/>
+         virtualName="" explicitFocusOrder="0" pos="338 480 64 24" textCol="ffffffff"
+         edTextCol="ff000000" edBkgCol="0" labelText="voice" editableSingleClick="0"
+         editableDoubleClick="0" focusDiscardsChanges="0" fontname="Default font"
+         fontsize="15" bold="0" italic="0" justification="33"/>
   <LABEL name="new label" id="6c2a548aaa508147" memberName="freqLabel17"
-         virtualName="" explicitFocusOrder="0" pos="338 528 120 24" edTextCol="ff000000"
-         edBkgCol="0" labelText="Destination" editableSingleClick="0"
+         virtualName="" explicitFocusOrder="0" pos="338 528 120 24" textCol="ffffffff"
+         edTextCol="ff000000" edBkgCol="0" labelText="Destination" editableSingleClick="0"
          editableDoubleClick="0" focusDiscardsChanges="0" fontname="Default font"
          fontsize="15" bold="0" italic="0" justification="33"/>
   <COMBOBOX name="32" id="74c53ac4d0fce163" memberName="comboBox7" virtualName=""
