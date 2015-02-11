@@ -43,7 +43,7 @@ public:
 		mMutationRate = 0.2f;
 		mMaxMutationOffset = 0.15f;
 
-		findParentPatches("E:/gewerbe sonic potions/SynthDIY/DrumSynthEditor/DrumSynthVst/Patches/Generation1",mParentPatches);
+		findParentPatches("E:/gewerbe_sonic_potions/git/editor/DrumSynthVst/Patches/Generation1",mParentPatches);
 
 		//combineAllParents();
 	};

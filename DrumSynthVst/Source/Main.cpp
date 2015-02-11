@@ -106,7 +106,7 @@ public:
             hello world window being clicked.
         */
 
-		//patchGeneratorWindow = new PatchGeneratorWindow();
+		patchGeneratorWindow = new PatchGeneratorWindow();
     }
 
     void shutdown()

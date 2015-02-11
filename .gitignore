@@ -15,7 +15,7 @@
 *.a
 
 # executables
-*.exe
+#*.exe
 
 # visual studio files
 *.ncb
